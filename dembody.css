@@ -16,7 +16,7 @@
 }
 
 .meiodembody {
-    height: 1800px;
+    height: 2000px;
     background-color: rgb(24,42,154);
     background-image: url(https://drive.google.com/uc?id=19j0palJWAyhws_kozcB6WLMbcAPSwI_-);
     background-size: 150%;
@@ -109,7 +109,20 @@ table{
     margin-top: 30px;
     color: white;
 }
-caption{
+
+th, td {
+    height: 50px;
+    text-align: center;
+    vertical-align: center; 
+}
+
+tr:hover {background-color: rgba(24,42,154,0.8)}
+    
+    
+caption {
+    padding-right: 150px;
+    height: 50px;
+    padding-top: 25px;
     background-color: black ;
     border: black solid 1px;
     color: white;

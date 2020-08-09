@@ -16,7 +16,7 @@
 }
 
 .meioiofit {
-    height: 1800px;
+    height: 1900px;
     /**background-color: rgb(196, 212, 100);
     background-image: url(https://drive.google.com/uc?id=1nztf9URcBGdpE0B51yop26qGKPEHoRMh);**/
 }
@@ -94,7 +94,19 @@ table{
     background-color:rgb(130, 163, 75, 0.6);
     color: white;
 }
+
+th, td {
+    height: 60px;
+    text-align: center;
+    vertical-align: center;
+
+}
+
+tr:hover {background-color: rgb(84, 124, 60) }   
+
 caption{
+    height: 50px;
+    padding-top: 25px;
     background-color: black ;
     border: black solid 1px;
     color: white;

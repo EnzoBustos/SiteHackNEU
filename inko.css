@@ -90,7 +90,7 @@ body{
 table{
     width: 80%;
     margin-left: 10%;
-    border: black solid 1px;
+     border: solid black 1px;
     position: relative;
     left: 0px;
     bottom: 80px;
@@ -98,11 +98,24 @@ table{
     margin-top: 30px;
     color: white;
 }
+
+th, td {
+    height: 50px;
+    text-align: center;
+    vertical-align: center;
+}
+
+
+
 caption{
+    height: 50px;
+    padding-top: 25px;
     background-color:rgb(168, 111, 20) ;
     border: black solid 1px;
     color: white;
 }
+
+tr:hover {background-color: rgba(168, 111, 20, 0.8)}
 
 .letrasep {
     letter-spacing: 4px;
