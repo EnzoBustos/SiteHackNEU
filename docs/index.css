@@ -185,7 +185,7 @@ input[type=checkbox]:checked ~ .menu_nav
     width: 35%;
     height: 350px;
     background-color: rgba(255, 255, 255, 0.575);
-    background-image: url(https://drive.google.com/uc?id=1WuYi_jkC-cJcTHEngO4bhGnN4tX0CoAD);
+    background-image: url(https://drive.google.com/uc?id=1uQFDYHiY4WsQFYN7HwFucj-QeP-kf_e0);
     background-size: 120%;
     float: right;
     margin-right: 10%;
@@ -195,7 +195,7 @@ input[type=checkbox]:checked ~ .menu_nav
     width: 35%;
     height: 350px;
     background-color: rgba(255, 255, 255, 0.575);
-    background-image: url(https://drive.google.com/uc?id=1uQFDYHiY4WsQFYN7HwFucj-QeP-kf_e0);
+    background-image: url(https://drive.google.com/uc?id=1WuYi_jkC-cJcTHEngO4bhGnN4tX0CoAD);
     background-size: 120%;
     float: left;
     margin-left: 10%;
@@ -300,6 +300,18 @@ footer {
     border-radius: 5px;
 }
 
+.central {
+    width: 25%;
+    height: 75%;
+    display: block;
+    float: left;
+    position: relative;
+    left: 76px;
+    background-color: white;
+    padding-left: 5%;
+    padding-top: 10%;
+}
+
 
 .box2 {
     width: 400px;
@@ -309,6 +321,7 @@ footer {
     top: 40px;
 }
 
+/** classes auxiliares **/
 .tiralink {
     color: white;
 
@@ -322,5 +335,14 @@ footer {
     text-decoration: none;
 }
 
+.tiralink2 {
+    color: black;
+
+}
+
+.tiralink2:hover {
+    color: white;
+    transition: .7s;
+}
 
 
